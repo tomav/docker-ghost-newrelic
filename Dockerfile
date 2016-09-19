@@ -1,4 +1,4 @@
-FROM ghost
+FROM ghost:latest
 MAINTAINER Thomas Vial
 RUN npm i newrelic \
   && cp node_modules/newrelic/newrelic.js newrelic.js \
